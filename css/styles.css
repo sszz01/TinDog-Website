@@ -1,0 +1,200 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container1 {
+  padding: 3% 15% 7%;
+}
+
+.container2 {
+  padding: 8% 15%;
+  position: relative; /* z-index is higher because it comes later in the flow */
+}
+
+.container3 {
+  padding: 11% 20%;
+  color: #F9F9F9;
+}
+
+.container4 {
+  padding: 5% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #FFDBA4;
+  color: #F9F9F9;
+}
+
+.white-section {
+  background-color: #F8F8F8;
+}
+
+/* Welcoming Sector */
+
+#title {
+  text-align: left;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  transition: all .2s ease-in-out;
+}
+
+
+/* Buttons */
+
+.download-btn {
+  margin: 8% 3% 6% 0;
+}
+
+
+/* Images */
+
+.title-image {
+  width: 60%;
+  transform: rotate(23deg);
+  position: absolute; /* no z-index because body have z-index 0 by default, which will hide the image */
+  top: -25px;
+  right: 20%;
+}
+
+
+/* Features Sector */
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icons {
+  color: #FECD70;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.feature-icons:hover {
+  color: #E6B325;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Testimonial Sector */
+
+#testimonials {
+  padding: 8% 15%;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 50px;
+  width: 10%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 5px 50px 30px;
+}
+
+.testimonial-text {
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+/* Pricing Sector */
+
+#pricing {
+  padding: 130px;
+}
+
+.pricing-card {
+  margin-top: 50px;
+}
+
+.pricing-text {
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+/* Conclusion Sector*/
+
+.conclusion-text {
+  font-size: 3.3rem;
+  line-height: 1.3;
+}
+
+
+/* Footer */
+
+.footer-link {
+  margin: 20px 15px;
+  color: #C69B7B;
+  transition: all .3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: #DAB88B;
+}
+
+@media (max-width: 1064px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
